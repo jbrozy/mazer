@@ -141,6 +141,8 @@ public class Main {
             }
         });
 
+        toggleButton.doClick();
+
         fileMenu.add(toggleButton);
         menuBar.add(fileMenu);
         frame.setJMenuBar(menuBar);

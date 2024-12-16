@@ -83,9 +83,9 @@ public class GridPathfinder {
         }
 
         // Store original colors
-        Map<GridCell, Color> originalColors = new HashMap<>();
+        // Map<GridCell, Color> originalColors = new HashMap<>();
         for (GridCell cell : path) {
-            originalColors.put(cell, cell.getCellColor());
+            // originalColors.put(cell, cell.getCellColor());
             // Skip coloring cells that are already target colors
             if (!PathNode.isTargetColor(cell.getCellColor())) {
                 cell.setCellColor(new Color(255, 255, 200)); // Light yellow for path

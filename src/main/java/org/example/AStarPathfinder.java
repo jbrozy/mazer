@@ -189,13 +189,6 @@ public class AStarPathfinder {
                 }
                 visitedCells.add(cell);
             }
-
-            // Pause to visualize the change
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }
